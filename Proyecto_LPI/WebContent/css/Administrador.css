@@ -1,0 +1,109 @@
+@charset "ISO-8859-1";
+
+
+   label.error {
+  color: red;
+font-weight: bold;
+}
+ body {
+ background-image: url(img/Administrador.jpg);
+  font-family: 'Quicksand', sans-serif;
+
+ }
+ main{
+     	   display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+    
+         background-image: url(../img/Administrador.jpg);
+          background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+            }
+.bold{
+	    font-weight: bold;
+	    color: #FFFFF;
+} 
+.login-container {
+        min-width: 400px;
+        height: 500px;
+        padding: 40px;
+        border-radius: 8px;
+        background: rgba(0, 0, 0, .1);
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.568);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 70px;
+       	color: white;
+    }
+
+    
+    .form-control{
+    	 min-width: 350px;
+    }
+   #boton{
+   background: #222A3F;
+   box-shadow: 0 0 30px rgba(0, 0, 0, 0.568);
+  	color:black;
+  	border:none;
+  	padding: 10px;
+	font-weight: bold;
+	color:white;
+    }
+    .texto-error{
+    	color:red;
+    	text-align: center;
+    	font-weight: bold;
+    }
+
+img{
+	display: flex;
+	margin: auto;
+}
+
+
+.header{
+    background-color: #fff;
+    font-family: 'Epilogue', sans-serif;
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    box-shadow: -1px 1px 5px 1px rgba(214,214,214,1);
+
+}
+.contenedor{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+     
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 15px;
+}
+
+.dropdown a{
+    border: none;
+   
+}
+/*LISTADO PRODUCTOS */
+
+.modal-body{
+	display: grid;
+	grid-template-columns: repeat(1,1fr);
+	justify-content: center;
+	align-items: center;
+}
+.modal-body h1{
+	font-size: 10px;
+	font-weight: bold;
+}

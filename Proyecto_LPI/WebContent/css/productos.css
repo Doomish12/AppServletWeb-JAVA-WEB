@@ -1,0 +1,28 @@
+@charset "ISO-8859-1";
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Open Sans';
+}
+body{
+	background-color: white;
+}
+
+main{
+	max-width: 1200px;
+	margin:  auto;
+	
+}
+.contenedor{
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	gap:15px
+	
+}
+.item{
+	display: grid;
+	gap:10px;
+}
+button{
+	width: 100px;
+}
